@@ -10,17 +10,23 @@ function greeting() {
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 function customGreeting(name) {
-    return "Hello, "(name)"!";
+    return `Helloooo this is ${name}`;
 }
-var message = customGreeting("Henry");
+var message1 = customGreeting("Henry")
 console.log(message);
 
+var message2 = customGreeting("hard")
+console.log(message)
+
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
-function greetPerson(firstName, middleName, lastName) {
-    return "Hello, " (firstName) " " (middleName) " " (lastName) "!";
+function greetPerson(firstName, midName, lastName) {
+    return `Sup ${firstName} ${midName} ${lastName}?!`
 }
-var fullName = greetPerson("Henry", "Chandler", "Long");
-console.log(fullName);
+var fullName1 = greetPerson("Henry", "Chandler", "Long")
+console.log(fullName1)
+
+var fullName2 = greetPerson("Lacey", "Arlene", "Long")
+console.log(fullName2)
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.

@@ -47,11 +47,9 @@ makeFreshPesto();
 
 
 //  EX 4:
-  // I'm not gettin this one..
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
+  // Just moved some indentation around and put the curly braces in the right spots.
+  function average(num1, num2){
+    var sum = num1 + num2;
     var avg = sum / 2;
-
-return avg
-  }
+    return avg
+}
