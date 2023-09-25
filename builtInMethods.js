@@ -39,6 +39,12 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// The toLowerCase() method is called on the sentence variable that stores the string "Hello, this is a SENTance,"
+// The method returns the sentance in all lowercase ...
+
+var sentance = "Hello, this is a SENTAnce."
+console.log(sentance.toLowerCase());
+
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
@@ -46,3 +52,15 @@ console.log(firstName.startsWith("J"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+
+var evenNumbers = [2, 4, 6, 8, 10];
+var fruits = ["apple", "banana", "cherry", "date"];
+
+// The push() method is called on the numbers variable and adds another number to the array. In this case the number is 12. 
+// The return value would be a list of even numbers from 2 to 12.
+var newNumber = numbers.push(12);
+
+// The pop() method is called on the fruits variable, removing the last string in the array. In this case, "date" is removed.
+// The return value will be "apple, banana, cherry"
+var removedFruit = fruits.pop();
